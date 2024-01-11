@@ -1,0 +1,45 @@
+\documentclass{report}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\usepackage{palatino}
+\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{{booktabs}}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ccicons}
+
+\hypersetup{
+    colorlinks = true,
+    linkbordercolor = {white},
+    linkcolor = {purple},
+    citecolor= {purple}
+}
+\usepackage{siunitx}
+\usepackage{alltt}
+\usepackage{textcomp}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\LARGE}
+
+\graphicspath{{figures/}}
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\makeatletter 
+
+\begin{document}
+
+\parindent=0pt
+\sloppy
+
+\input{sections/00_titolo.tex}
+\tableofcontents
+
+\input{sections/01_background.tex}
+\input{sections/02_methodology.tex}
+\input{sections/03_results.tex}
+\input{sections/04_discussion.tex}
+\input{sections/05_conclusions.tex}
+\input{sections/06_technical.tex}
+\bibliographystyle{plain} % We choose the "plain" reference style
+\bibliography{refs} % Entries are in the refs.bib file
+\end{document}

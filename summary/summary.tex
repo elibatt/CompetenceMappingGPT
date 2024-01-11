@@ -1,0 +1,47 @@
+\documentclass{report}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\usepackage{palatino}
+\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{{booktabs}}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ccicons}
+
+\hypersetup{
+    colorlinks = true,
+    linkbordercolor = {white},
+    linkcolor = {purple},
+    citecolor= {purple}
+}
+\usepackage{siunitx}
+\usepackage{alltt}
+\usepackage{textcomp}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\LARGE}
+
+\graphicspath{{figures/}}
+
+\definecolor{titlepagecolor}{cmyk}{1,.60,0,.40}
+\makeatletter 
+
+\begin{document}
+
+\parindent=0pt
+\sloppy
+
+\chapter*{Executive Summary}
+This research paper explores an innovative approach to competence mapping in the context of an Italian telecommunications company. \\
+
+In the first part of the document there is an analysis of the limitations of the current competence mapping methodologies. Subsequently an innovative framework is proposed integrating Natural Language Processing (NLP) technologies, specifically Large Language Models (LLMs) like GPT-3.5, to automate the evaluation of workforce competences, emphasizing a balance between hard and soft skills. The objective is to enable effective monitoring of employees, promoting sustainable growth while minimizing disruption to their working hours.\\
+
+The framework's practical application focuses on mapping the competences of a helpdesk employee at the company, using the e-Competence Framework (e-CF) as a reference for ICT competences. The analysis highlights the importance of caution when deploying GPT within the competence mapping system of a company, particularly when assessing communication competence. While GPT demonstrates reliability in extracting information, evaluating technical proficiency, and assessing problem-solving capabilities, there are nuances and variations in performance depending on the task and data at hand.\\
+
+The research delves into the integration of competence mapping into the company's customer support workflow, detailing the phases of call creation, update, and ticket processing. The framework extracts communication, technical, and problem-management competences from these stages, presenting a competence mapping dashboard designed to aid HR and management in evaluating departmental and individual performance.\\
+
+The final section of this document includes a detailed technical appendix that documents the rigorous testing process undertaken and the resultant findings.\\
+
+In conclusion, the study emphasizes the need for cautious integration of GPT into competence mapping frameworks, acknowledging its potential value in HR support applications. The GPT-3.5 model excels in certain areas but may fall short in evaluating communication abilities and behavioral patterns. The findings suggest that GPT can be a valuable auxiliary tool, particularly as technology advances. Looking forward, the research expects GPT-4.0 to serve as a valuable tool for further investigations in competence mapping, thanks to its enhanced capabilities and deeper understanding. Privacy concerns related to sensitive data processed by GPT are acknowledged, emphasizing the importance of ongoing discussions in a legal environment.
+
+\end{document}
