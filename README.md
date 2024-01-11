@@ -3,8 +3,9 @@ in order to maximize company growth and reduce employees' working hours.
 
 Subject:
 Digital Innovation
+
 Group members:
-Battaglia Elisa
-Battisti Matteo
-El Kouaiti Anas
+Battaglia Elisa,
+Battisti Matteo,
+El Kouaiti Anas,
 Zonaro Francesco
